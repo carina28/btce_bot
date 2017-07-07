@@ -1,0 +1,9 @@
+PAIRS = []
+KEY = ''
+SECRET = ''
+AMOUNT = 10
+DEBUG = False
+MINIMUM = 0.01
+FEE = 0.2
+LOOP = 30
+ORDER_TIMEOUT = 30
