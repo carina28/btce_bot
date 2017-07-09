@@ -6,20 +6,20 @@ from threading import Thread
 from operator import itemgetter
 from debug import debug
 import btcelib
-import myconfig
+import config
 import time
 
 
 # Configuration Variables Call
-key = myconfig.KEY
-secret = myconfig.SECRET
-pair_list = myconfig.PAIRS
-amount_to_trade = d(myconfig.AMOUNT / 100)
-minimum_to_trade = d(myconfig.MINIMUM)
-fee = d(myconfig.FEE / 100)
-loop_time = myconfig.LOOP
-order_timeout = myconfig.ORDER_TIMEOUT
-debug_conf = myconfig.DEBUG
+key = config.KEY
+secret = config.SECRET
+pair_list = config.PAIRS
+amount_to_trade = d(config.AMOUNT / 100)
+minimum_to_trade = d(config.MINIMUM)
+fee = d(config.FEE / 100)
+loop_time = config.LOOP
+order_timeout = config.ORDER_TIMEOUT
+debug_conf = config.DEBUG
 
 getcontext().prec = 8
 
